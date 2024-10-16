@@ -1,0 +1,36 @@
+.card {
+  background-color: #6f899e; 
+  border: 1px solid rgb(156, 148, 148);  
+  border-radius: 40px;      
+  padding: 20px;
+  text-align: center;       
+  width: 200px;             
+  margin: 10px;
+  height: min-content;
+}
+
+.card:hover {
+  transform: translateY(-2px); 
+}
+
+.card button {
+  background-color: #819dbb; 
+  border: 20px;
+  color: white;             
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 20px;       
+  cursor: pointer;          
+  transition: background-color 0.3s; 
+}
+
+.card button:hover {
+  background-color: #0056b3; 
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;  
+  gap: 10px;               
+}
